@@ -21,6 +21,18 @@
       [[./imagens/passo 1.png/]]
    2. Clique em Linux Distributions.
       [[./imagens/passo 2.png/]]
+   3. CLique na linha correspondente às versões mais recentes do
+      Ubuntu para realizar o download do arquivo .deb.
+      [[./imagens/passo 3.png/]]
+   4. Abra o arquivo .deb.
+      [[./imagens/passo 4.png/]]
+   5. Clique em install (ou instalar), que deve aparecer no lugar de remove.
+      [[./imagens/passo 5.png/]]
+   6. Instale os headers do seu kernel. Primeiro, descubra a versão de
+      seu kernel, e em seguida instale o pacote correspondente.
+      [[./imagens/passo 6.png/]]
+   7. Faça a configuração do Virtualbox.
+      [[./imagens/passo 7.png/]]
 
 ** Windows
 
