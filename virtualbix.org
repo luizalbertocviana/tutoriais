@@ -15,7 +15,10 @@
    Em ambientes Linux, o Virtualbox costuma estar disponível nos
    repositórios de pacotes. Apesar disso, é preferível tomar a versão
    oficial, disponível em https://www.virtualbox.org/. Aqui, vamos
-   apresentar um passo-a-passo baseado na distribuição Ubuntu.
+   apresentar um passo-a-passo baseado na distribuição Ubuntu:
+
+   1. Visite https://www.virtualbox.org/.
+      [[./imagens/passo 1.png/]]
 
 ** Windows
 
