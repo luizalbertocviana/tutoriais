@@ -17,8 +17,16 @@
    sua instalação.
 
    #+begin_src sh
-     # debian/ubuntu
+     # ubuntu
      sudo apt update
      sudo apt upgrade
      sudo apt install virtualbox
+     # arch/manjaro
+     sudo pacman -Syu
+     sudo pacman -S virtualbox
    #+end_src
+
+** Windows
+
+   Para o ambiente Windows, é recomendado utilizar o instalador
+   disponível em https://www.virtualbox.org/
