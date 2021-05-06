@@ -17,8 +17,10 @@
    oficial, disponível em https://www.virtualbox.org/. Aqui, vamos
    apresentar um passo-a-passo baseado na distribuição Ubuntu:
 
-   1. Visite https://www.virtualbox.org/.
+   1. Visite https://www.virtualbox.org/, e clique em Downloads.
       [[./imagens/passo 1.png/]]
+   2. Clique em Linux Distributions.
+      [[./imagens/passo 2.png/]]
 
 ** Windows
 
