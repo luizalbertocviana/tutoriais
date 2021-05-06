@@ -5,4 +5,20 @@
   o Virtualbox é chamado de *host*, e o sistema operacional que roda
   dentro do virtualbox é chamado de *guest*. Para fazer isso, o
   virtualbox simula um computador completo, ou seja, funciona como uma
-  *máquina virtual*.
+  *máquina virtual*. A seguir, damos instruções sobre a instalação do
+  Virtualbox.
+
+* Instalação
+
+** Linux
+
+   Em ambientes Linux, o Virtualbox costuma estar disponível nos
+   repositórios de pacotes, bastando um comando para efetuar a sua
+   instalação.
+
+   #+begin_src sh
+     # debian/ubuntu
+     sudo apt update
+     sudo apt upgrade
+     sudo apt install virtualbox
+   #+end_src
