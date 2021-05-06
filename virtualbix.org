@@ -13,8 +13,8 @@
 ** Linux
 
    Em ambientes Linux, o Virtualbox costuma estar disponível nos
-   repositórios de pacotes, bastando um comando para efetuar a sua
-   instalação.
+   repositórios de pacotes, bastando alguns comandos para efetuar a
+   sua instalação.
 
    #+begin_src sh
      # debian/ubuntu
