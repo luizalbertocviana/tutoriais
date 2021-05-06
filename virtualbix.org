@@ -13,20 +13,13 @@
 ** Linux
 
    Em ambientes Linux, o Virtualbox costuma estar disponível nos
-   repositórios de pacotes, bastando alguns comandos para efetuar a
-   sua instalação.
-
-   #+begin_src sh
-     # ubuntu
-     sudo apt update
-     sudo apt upgrade
-     sudo apt install virtualbox
-     # arch/manjaro
-     sudo pacman -Syu
-     sudo pacman -S virtualbox
-   #+end_src
+   repositórios de pacotes. Apesar disso, é preferível tomar a versão
+   oficial, disponível em https://www.virtualbox.org/. Aqui, vamos
+   apresentar um passo-a-passo baseado na distribuição Ubuntu.
 
 ** Windows
 
    Para o ambiente Windows, é recomendado utilizar o instalador
    disponível em https://www.virtualbox.org/
+
+* Utilização
