@@ -1,0 +1,8 @@
+* Introdução
+
+  Virtualbox é um software que permite a execução de um sistema
+  operacional completo dentro de outro. O sistema operacional que roda
+  o Virtualbox é chamado de *host*, e o sistema operacional que roda
+  dentro do virtualbox é chamado de *guest*. Para fazer isso, o
+  virtualbox simula um computador completo, ou seja, funciona como uma
+  *máquina virtual*.
