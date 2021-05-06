@@ -10,6 +10,13 @@
 
 * Instalação
 
+** Pré-requisitos
+
+   Antes de tudo, entre na sua BIOS e desabilite o secure boot. A
+   depender de sua BIOS, pode ser necessário também habilitar as
+   opções de virtualização.
+   [[./imagens/passo 0.jpg/]]
+
 ** Linux
 
    Em ambientes Linux, o Virtualbox costuma estar disponível nos
@@ -17,10 +24,6 @@
    oficial, disponível em https://www.virtualbox.org/. Aqui, vamos
    apresentar um passo-a-passo baseado na distribuição Ubuntu:
 
-   0. Antes de tudo, entre na sua BIOS e desabilite o secure boot. A
-      depender de sua BIOS, pode ser necessário também habilitar as
-      opções de virtualização.
-      [[./imagens/passo 0.jpg/]]
    1. Visite https://www.virtualbox.org/, e clique em Downloads.
       [[./imagens/passo 1.png/]]
    2. Clique em Linux Distributions.
