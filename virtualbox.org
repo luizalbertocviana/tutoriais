@@ -15,7 +15,7 @@
    Antes de tudo, entre na sua BIOS e desabilite o secure boot. A
    depender de sua BIOS, pode ser necessário também habilitar as
    opções de virtualização.
-   [[./imagens/passo 0.jpg/]]
+   [[./imagens/virtualbox/instalacao 0.jpg]]
 
 ** Linux
 
@@ -25,21 +25,21 @@
    apresentar um passo-a-passo baseado na distribuição Ubuntu:
 
    1. Visite https://www.virtualbox.org/, e clique em Downloads.
-      [[./imagens/passo 1.png/]]
+      [[./imagens/virtualbox/instalacao 1.png]]
    2. Clique em Linux Distributions.
-      [[./imagens/passo 2.png/]]
+      [[./imagens/virtualbox/instalacao 2.png]]
    3. CLique na linha correspondente às versões mais recentes do
       Ubuntu para realizar o download do arquivo .deb.
-      [[./imagens/passo 3.png/]]
+      [[./imagens/virtualbox/instalacao 3.png]]
    4. Abra o arquivo .deb.
-      [[./imagens/passo 4.png/]]
+      [[./imagens/virtualbox/instalacao 4.png]]
    5. Clique em install (ou instalar), que deve aparecer no lugar de remove.
-      [[./imagens/passo 5.png/]]
+      [[./imagens/virtualbox/instalacao 5.png]]
    6. Instale os headers do seu kernel. Primeiro, descubra a versão de
       seu kernel, e em seguida instale o pacote correspondente.
-      [[./imagens/passo 6.png/]]
+      [[./imagens/virtualbox/instalacao 6.png]]
    7. Faça a configuração do Virtualbox.
-      [[./imagens/passo 7.png/]]
+      [[./imagens/virtualbox/instalacao 7.png]]
 
 ** Windows
 
