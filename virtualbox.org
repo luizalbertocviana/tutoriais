@@ -47,3 +47,42 @@
    disponível em https://www.virtualbox.org/
 
 * Utilização
+
+** Criação
+
+  Vamos ilustrar o procedimento de criação de uma máquina
+  virtual. Após isso, iremos mostrar como proceder com sua execução.
+
+  1. Iniciamos o processo de criação de uma máquina virtual.
+     [[./imagens/virtualbox/utilizacao 1.png]]
+  2. Especificamos seu nome como "ubuntu-vm". Com esse nome em
+     particular, o Virtualbox é capaz de detectar o tipo de máquina
+     que estamos tentando criar. Caso vocês escolha algum outro nome,
+     o tipo de máquina virtual deve ser verifiado e, caso necessário,
+     ajustado.
+     [[./imagens/virtualbox/utilizacao 2.png]]
+  3. Determinamos a quantidade de memória RAM que nossa nova máquina
+     virtual poderá utilizar. É recomendado reservar algo em torno da
+     metade de nossa memória RAM total para ser distribuído entre nossas
+     máquinas virtuais. Em um cenário em que utilizamos apenas uma
+     máquina virtual por vez, reservamos a referidade quantidade de
+     memória para nossa máquina virtual.
+     [[./imagens/virtualbox/utilizacao 3.png]]
+  4. Criamos um novo disco para nossa máquina virtual. Note que seria
+     também possível aproveitar o disco de uma máquian virtual já existente.
+     [[./imagens/virtualbox/utilizacao 4.png]]
+  5. Vamos utilizar o primeiro tipo de disco, conforme ilustrado.
+     [[./imagens/virtualbox/utilizacao 5.png]]
+  6. Damos preferência a criar um disco dinamicamente alocado. Dessa
+     forma, o espaço do disco só é de fato utilziado quando
+     necessário.
+     [[./imagens/virtualbox/utilizacao 6.png]]
+  7. Aceitamos o tamanho padrão de 10 GB, já que máquinas virtuais
+     costumam desempenhar tarefas específicas, e portanto não precisam
+     de tanta capacidade de armazenamento.
+     [[./imagens/virtualbox/utilizacao 7.png]]
+  8. Pronto, nossa máquina virtual está criada, e está atualmente
+     vazia, até mesmo sem sistema operacional.
+     [[./imagens/virtualbox/utilizacao 8.png]]
+
+** Inicialização
