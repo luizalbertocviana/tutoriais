@@ -1,0 +1,14 @@
+* Integração do Node com ASP.NET
+
+  1. Instale o nodejs
+
+     #+begin_src sh
+       sudo apt install nodejs
+       sudo apt install npm
+     #+end_src
+
+  2. Instale pacotes para pré-processamento do lado do servidor
+
+     #+begin_src sh
+       npm i -S aspnet-prerendering
+     #+end_src
