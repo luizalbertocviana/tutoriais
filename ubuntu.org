@@ -1,0 +1,78 @@
+* Instalação do Ubuntu
+
+  Neste tutorial, vamos realizar a instalação do Ubuntu em uma máquina
+  virtual do VirtualBox.
+
+  1. Vamos ao site do Ubuntu.
+     [[./imagens/ubuntu/imagem 01.png]]
+  2. Em Downloads, clicamos em Ubuntu Desktop.
+     [[./imagens/ubuntu/imagem 02.png]]
+  3. Clicamos em Download na versão LTS (Long Term Support) mais recente.
+     [[./imagens/ubuntu/imagem 03.png]]
+  4. Caso nosso download não inicie automaticamente, clicamos em download now.
+     [[./imagens/ubuntu/imagem 04.png]]
+  5. Ao final do download, deve haver um arquivo .iso na nossa pasta de downloads.
+     [[./imagens/ubuntu/imagem 05.png]]
+  6. Como já temos criado nossa máquina virtual de um outro tutorial,
+     vamos clicar em Settings.
+     [[./imagens/ubuntu/imagem 06.png]]
+  7. Na seção Storage, vamos acrescentar mais um drive óptico em nossa
+     máquina virtual.
+     [[./imagens/ubuntu/imagem 07.png]]
+  8. Selecionamos o arquivo .iso do ubuntu.
+     [[./imagens/ubuntu/imagem 09.png]]
+     [[./imagens/ubuntu/imagem 10.png]]
+  9. Agora temos o arquivo .iso do ubuntu no drive óptico de nossa
+     máquina virtual.
+     [[./imagens/ubuntu/imagem 12.png]]
+  10. Na seção Display, disponiblizamos o máximo de memória de vídeo
+      para nossa máquina, e também habilitamos aceleração 3D.
+     [[./imagens/ubuntu/imagem 14.png]]
+  11. Clicamos em Start para inicializar nossa máquina.
+     [[./imagens/ubuntu/imagem 15.png]]
+  12. Na tela de boas-vindas do Ubuntu, selecionamos nosso idioma e
+      clicamos em Experimentar o Ubuntu, assim temos chance de mudar a
+      resolução, caso seja necessário.
+     [[./imagens/ubuntu/imagem 16.png]]
+  13. Clicamos com o botão direito na área de trabalho, e selecionamos
+      Configurações de exibição.
+     [[./imagens/ubuntu/imagem 17.png]]
+  14. Selecionamos uma resolução mais adequada, e clicamos em Aplicar.
+     [[./imagens/ubuntu/imagem 18.png]]
+  15. Agora deveremos ter uma experiência mais agradável com o instalador.
+     [[./imagens/ubuntu/imagem 19.png]]
+  16. Clicamos no ícnoe de instalação do Ubuntu.
+     [[./imagens/ubuntu/imagem 20.png]]
+  17. O idioma já está correto, então apenas clicamos em Continuar.
+     [[./imagens/ubuntu/imagem 21.png]]
+  18. O teclado deve ter sido detectado corretamente, mas sempre é bom
+      testarmos cedilha e acentos.
+     [[./imagens/ubuntu/imagem 22.png]]
+  19. Seguimos com uma instalação normal, permitimos o download de
+      atualizações durante a instalação e o uso de software proprietário.
+     [[./imagens/ubuntu/imagem 23.png]]
+  20. Como estamos realizando a instalação em uma máquina virtual,
+      permitimos ao Ubuntu ocupar todo o disco.
+     [[./imagens/ubuntu/imagem 24.png]]
+  21. Clicamos em continuar para confirmar nosso tipo de instalação.
+     [[./imagens/ubuntu/imagem 25.png]]
+  22. Selecionamos nosso fuso horário.
+     [[./imagens/ubuntu/imagem 26.png]]
+  23. Inserimos nossas credenciais de usuário.
+     [[./imagens/ubuntu/imagem 27.png]]
+  24. Agora esperamos o término da instalação.
+     [[./imagens/ubuntu/imagem 28.png]]
+  25. Clicamos em Reiniciar agora.
+     [[./imagens/ubuntu/imagem 29.png]]
+  26. Com a máquina virtual reiniciada, fazemos o login.
+     [[./imagens/ubuntu/imagem 30.png]]
+  27. Na janela inicial, ignoramos todas as opções que nos são oferecidas.
+     [[./imagens/ubuntu/imagem 31.png]]
+  28. Como o sistema recém-instalado não teve sua resolução
+      configurada, repetimos esses passos.
+  29. Caso seja pedido para que atualizações sejam instaladas,
+      confirmamos a instalação.
+     [[./imagens/ubuntu/imagem 34.png]]
+  30. Por fim, reiniciamos mais uma vez a máquina virtual, que agora
+      deve estar totalmente pronta para uso.
+     [[./imagens/ubuntu/imagem 35.png]]
