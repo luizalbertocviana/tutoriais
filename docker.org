@@ -1,0 +1,67 @@
+#+TITLE: Docker
+
+* Instalação do Docker
+
+ Neste tutorial, vamos realizar a instalação do Docker e do docker-compose em um
+ sistema operacional Ubuntu. Essas ferramentas serão úteis para automatizar a
+ implantação de nossos serviços.
+
+ 1. Primeiro, vamos nos certificar de remover versões anteriores do docker e
+    suas ferramentas.
+    #+begin_src sh
+    sudo apt remove docker docker-engine docker.io containerd runc
+    #+end_src
+ 2. Agora vamos preparar o ~apt~ para receber pacotes de repositórios externos.
+    #+begin_src sh
+    sudo apt update
+    sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release
+    #+end_src
+ 3. Adicionamos a chave GPG dos repositórios oficiais do Docker às chaves
+    confiadas pelo sistema.
+    #+begin_src sh
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    #+end_src
+ 4. Usamos o seguinte comando para descobrir o codinome de nossa instalação
+    Ubuntu. No nosso caso, o retorno é a palavra focal.
+    #+begin_src sh
+    lsb_release -cs
+    #+end_src
+ 5. Vamos agora preparar o repositório com as versões estáveis das ferramentas
+    do Docker. Usamos o trecho "focal stable" pois focal foi a saída de nosso
+    comando anterior.
+    #+begin_src sh
+    echo \
+      "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+      focal stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    #+end_src
+ 6. Finalmente, vamos realizar a instalação dos pacotes que contêm as
+    ferramentas do Docker.
+    #+begin_src sh
+    sudo apt update
+    sudo apt install docker-ce docker-ce-cli containerd.io
+    #+end_src
+ 7. Vamos testar nossa instalação do Docker com o seguinte comando.
+    #+begin_src sh
+    sudo docker run hello-world
+    #+end_src
+ 8. Apesar de estar funcionando, não é recomendável ficar utilizando privilégios
+    de superusuário para rodar nossos containeres. Por isso, vamos permitir que
+    nosso usuário também possa rodar containeres. O primeiro passo é criar um
+    grupo de usuários chamado docker.
+    #+begin_src sh
+    sudo groupadd docker
+    #+end_src
+ 9. Vamos adicionar nosso usuário ao grupo docker. No nosso caso, o usuário é
+    luiz, e vc pode descobrir seu usuário utilizando o comando ~whoami~.
+    #+begin_src sh
+    sudo usermod -aG docker luiz
+    #+end_src
+ 10. Reiniciamos nosso computador para que as mudanças sejam efetivadas.
+ 11. Vamos veriicar se podemos rodar um container sem privilégios de superusuário.
+    #+begin_src sh
+    docker run hello-world
+    #+end_src
+ 12. Por fim, vamos instalar o docker-compose, que vai nos auxiliar na orquestração de nossos containeres.
+    #+begin_src sh
+    sudo apt install docker-compose
+    #+end_src
